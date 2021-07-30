@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* container {
+  background-color: rgb(253, 92, 92);
+} */
+.buttons {
+  font-size: 15px;
+}
+container {
+  width: 100vw;
+}
+.buttons button {
+  margin: 6px;
+  padding: 2px 4px 2px 4px;
+  outline: none;
+  border: none;
+  background: rgb(231, 231, 231);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+section {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section .product_card {
+  display: block;
+  width: 280px;
+  height: 95px;
+  border-radius: 1px;
+  background: #ebebeb;
+  margin: 7px;
+  padding: 5px;
+  overflow: hidden;
+}
+.images_div {
+  border-radius: 1px;
+  display: flex;
+}
+.images_div img {
+  width: 80px;
+  height: 100px;
+}
+.card_content {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+  width: 200px;
+  border-radius: 1px;
+}
+.in_card_content {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.card_nav {
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  background: cornflowerblue;
+  color: cyan;
+  /* box-shadow: 2px 2px 2px rgb(0, 0, 0); */
+  border-radius: 5px;
+  height: fit-content;
+}

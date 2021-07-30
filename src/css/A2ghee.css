@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* container {
+  min-width: 100vw;
+} */
+.secondcont {
+  width: 100vw;
+}
+h1.mainHead {
+  width: 100%;
+  text-align: center;
+  background: rgb(226, 226, 226);
+  color: rgb(51, 51, 51);
+  padding: 7px;
+}
+.container .card_container {
+  display: flex;
+  justify-content: space-around;
+}
+.product_card {
+  width: 295px;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background: rgb(236, 233, 255);
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.card_head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card_head > h2 {
+  color: rgb(41, 41, 41);
+  margin-left: 10px;
+}
+.card_links {
+  display: flex;
+  flex-direction: column;
+}
+.card_links a {
+  text-decoration: none;
+  padding: 5px;
+  background: rgb(49, 145, 255);
+  margin: 3px;
+  text-align: center;
+  width: 100px;
+  color: cyan;
+  border-radius: 30px;
+}
+.product_img {
+  width: 150px;
+  height: 170px;
+}
+container .detail_tw0 {
+  margin-top: 20px;
+  /* background: chartreuse; */
+}
+container div.details1 {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+container div.details1 Table tr {
+  font-size: 17px;
+}
+container .detailhead {
+  background: rgb(247, 247, 247);
+  width: 200px;
+  padding: 7px;
+  height: fit-content;
+  margin: auto;
+  text-align: center;
+  /* border: 2px solid black; */
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+container div.details1 .carousel_pro {
+  width: 295px;
+  height: 295px;
+  /* border: 2px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+container div.details1 .carousel_pro img {
+  height: 290px;
+  width: 295px;
+}
+container div.details1 .table_details {
+  width: 295px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+container div.details1 > .details_para {
+  background: cornsilk;
+  height: fit-content;
+  padding: 15px;
+  width: 90vw;
+  font-size: 17px;
+}
+container div.details1 > h1 {
+  display: block;
+}
